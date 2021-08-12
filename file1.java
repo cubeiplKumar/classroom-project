@@ -5,4 +5,9 @@ public class HelloWorld {
     Greeter greeter = new Greeter();
     System.out.println(greeter.sayHello());
   }
+  public class Greeter {
+  public String sayHello() {
+    return "Hello world!";
+  }
+}
 }
