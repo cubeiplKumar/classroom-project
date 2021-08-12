@@ -5,9 +5,6 @@ public class HelloWorld {
     Greeter greeter = new Greeter();
     System.out.println(greeter.sayHello());
   }
-  public class Greeter {
-  public String sayHello() {
-    return "Hello world!";
-  }
-}
+  LocalTime currentTime = new LocalTime();
+    System.out.println("The current local time is: " + currentTime)
 }
